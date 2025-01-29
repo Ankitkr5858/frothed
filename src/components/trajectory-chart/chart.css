@@ -1,0 +1,26 @@
+
+.trajectory_chart {
+ margin: auto;
+ position: relative;
+}
+.vibrational_label{
+  position: relative;
+}
+.vibrational_label::after ,.vibrational_label::before{
+content: '';
+position: absolute;
+}
+.vibrational_label::before {
+  width: 38px;
+  height: 1px;
+  background-color: darkblue;
+  right: 66px;
+  top: 18px;
+}
+.vibrational_label::after {
+  width: 10px;
+  height: 10px;
+  background-color: darkblue;
+  right: 100px;
+  top: 14px;
+}

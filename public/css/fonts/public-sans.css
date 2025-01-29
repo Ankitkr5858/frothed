@@ -1,0 +1,17 @@
+/* Normal Style */
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100 900; /* Variable weight range */
+    font-display: swap;
+    src: url('../fonts/Public-Sans/PublicSans-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Italic Style */
+@font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 100 900; /* Variable weight range */
+    font-display: swap;
+    src: url('../fonts/Public-Sans/PublicSans-Italic-VariableFont_wght.ttf') format('truetype');
+}
