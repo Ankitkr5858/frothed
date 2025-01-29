@@ -8,7 +8,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title>Kfroth ID</title>
+        <title>Froth ID</title>
       </Helmet>
 
       <JwtLoginView />

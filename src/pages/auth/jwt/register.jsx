@@ -8,7 +8,7 @@ export default function RegisterPage() {
   return (
     <>
       <Helmet>
-        <title>Kfroth ID</title>
+        <title>Froth ID</title>
       </Helmet>
 
       <JwtRegisterView />

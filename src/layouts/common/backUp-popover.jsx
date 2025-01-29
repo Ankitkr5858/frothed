@@ -89,7 +89,7 @@ export default function ContactsPopover() {
             <TabPanel value="1">
               <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
                 <DialogContentText>
-                  This option will export a full backup of the Kfroth ID configuration. You need to
+                  This option will export a full backup of the Froth ID configuration. You need to
                   add an export comment to perform this action.
                 </DialogContentText>
                 <LoadingButton
@@ -105,7 +105,7 @@ export default function ContactsPopover() {
             </TabPanel>
             <TabPanel value="2">
               <DialogContentText my={2} sx={{ textAlign: 'center' }}>
-                This option will import a previous backup of the Kfroth ID configuration. Use it
+                This option will import a previous backup of the Froth ID configuration. Use it
                 carefully as the entire configuration will be replaced.
               </DialogContentText>
               {file && file.name ? (

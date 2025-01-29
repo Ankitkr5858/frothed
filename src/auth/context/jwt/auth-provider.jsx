@@ -16,7 +16,7 @@ import { setSession, isValidToken } from './utils';
 const userData = {
   id: '8864c717-587d-472a-929a-8e5f298024da-0',
   displayName: 'Jaydon Frankie',
-  email: 'kfrothid',
+  email: 'frothid',
   password: 'kapptek1234.',
   photoURL: 'https://api-dev-minimal-v510.vercel.app/assets/images/avatar/avatar_25.jpg',
   phoneNumber: '+40 777666555',
