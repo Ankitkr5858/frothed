@@ -368,7 +368,7 @@ const OverviewOperatorView = () => {
   useEffect(() => {
     if (!camera?.length) return () => {};
 
-    const socket = new WebSocket('wss://0220677409dd.ngrok.app/streamImage');
+    const socket = new WebSocket(`wss://${window.BASE_URL}/streamImage`);
     const timeoutMap = timeoutRefs.current; // Save current ref to a local variable
 
     socket.onopen = () => {
